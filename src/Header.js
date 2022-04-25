@@ -13,7 +13,7 @@ function Header() { //componente Header
         </div>   
         <div className="header__nav">
             <div className="nav__item">
-                <span className="nav__itemLineTwo"><a href='#'>Inicio</a> 
+                <span className="nav__itemLineTwo"><a href=''>Inicio</a> 
                 </span>
             </div>
 
