@@ -92,16 +92,16 @@ a {
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s;
+    transition: background-size .4s;
+    
 }
 a:hover {
     background-size: 100% 2px;
-
+    font-size: 25px;
 }
 
 a:focus {
     background-size: 100% 2px;
-
 }
 
 a:visited{

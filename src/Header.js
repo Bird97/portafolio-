@@ -4,13 +4,17 @@ import "./Header.css";
 function Header() { //componente Header
   return (
     <div className='header'>
+        <head>
+            <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        </head>
         <div className='header__logo'>
             {//<StorefrontIcon className='header__logoImage' fontSize="large"/>
             }
         </div>   
         <div className="header__nav">
             <div className="nav__item">
-                <span className="nav__itemLineTwo"><a href='#'>Inicio</a> </span>
+                <span className="nav__itemLineTwo"><a href='#'>Inicio</a> 
+                </span>
             </div>
 
             <div className="nav__item">

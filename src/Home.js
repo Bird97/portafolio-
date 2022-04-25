@@ -9,12 +9,14 @@ function Home() { //componente Header
           }
       </div>
       <p className='saludo'>
-        <h1>Hola.</h1>
-        <h1>Yo soy Juan</h1>
+        <h1>Hola<span>,</span></h1>
+        <h1>Yo soy Juan<span>.</span></h1>
       </p>
-      <div className='circulo'></div>
+      <div className='circulo'>
+      <div className='circulo2'></div>
+      </div>      
       <p>
-        <h1 className='cargo'>Desarrolador FullStack :D</h1>
+        <h1 className='cargo'>Desarrolador FullStack</h1>
       </p>
       <div className='empty'></div>
     </div>
